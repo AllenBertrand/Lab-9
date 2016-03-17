@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-CommunityInfoSite-20160118111129.mdf;Initial Catalog=aspnet-CommunityInfoSite-20160118111129;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Allen\\Documents\\SCHOOL\ STUFF\\WINTER\ 2016\\CS\ 296\\Lab\ 9\\CommunityInfoSite\\CommunityInfoSite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="CommunityForumContext-Web.config Connection String" description="CommunityForumContext Connection String used in web.config by the application to access the database." defaultValue="data source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-CommunityInfoSite-20160118122222.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Allen\\Documents\\SCHOOL\ STUFF\\WINTER\ 2016\\CS\ 296\\Lab\ 9\\CommunityInfoSite\\CommunityInfoSite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CommunityForumContext']/@connectionString" />
+  </parameter>
+</parameters>
